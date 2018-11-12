@@ -1,0 +1,30 @@
+Put your name and netid here
+
+(1) Run the program BenchmarkForAutocomplete and copy/paste the 
+results here this for #matches = 20
+
+(2) Run the program again for #matches = 10000, paste the results, 
+and then make any conclusions about how the # matches 
+effects the runtime. 
+
+(3) Copy/paste the code from BruteAutocomplete.topMatches below. 
+Explain what the Big-Oh complexity of the entire loop: 
+for(Term t : myTerms) {...} 
+is in terms of N, the number of elements in myTerms and 
+M, the number of terms that match the prefix. 
+Assume that every priority-queue operation runs in O(log k) time. 
+Explain your answer which should be in terms of N, M, and k.
+
+(4) Explain why the last for loop in BruteAutocomplete.topMatches 
+uses a LinkedList (and not an ArrayList) 
+AND why the PriorityQueue uses Term.WeightOrder to get 
+the top k heaviest matches -- rather than 
+using Term.ReverseWeightOrder.
+
+
+(5) Explain what the runtime of the 
+BinarySearchAutocomplete.topMatches code that you 
+implemented is by copy/pasting the code below 
+and explaining your answer in terms of N, M, and k.
+
+
